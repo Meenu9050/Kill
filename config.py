@@ -10,20 +10,20 @@ API_ID = int(getenv("API_ID", "20977551"))
 API_HASH = getenv("API_HASH", "c5c11856866072c7b12a4e32e6a0a0f9")
 
 # Bot Token (@BotFather)
-BOT_TOKEN = getenv("BOT_TOKEN", "8063486217:AAH3_0XjlDtdUWSYA_84H-RbA5_DU9uOtjo")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Owner and Bot Info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_ALPHA_BABY_lll")
-BOT_USERNAME = getenv("BOT_USERNAME", "CuddleBuddhuu_Bot")
-BOT_NAME = getenv("BOT_NAME", "Cuddlexbuddhugx")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "finalbossrock")
+BOT_USERNAME = getenv("BOT_USERNAME", "Music_Silent_bot")
+BOT_NAME = getenv("BOT_NAME", "xgx")
 
 # Database
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Limits & IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002778447240"))
-OWNER_ID = int(getenv("OWNER_ID", "6514377146"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003063952141"))
+OWNER_ID = int(getenv("OWNER_ID", "5016636419"))
 
 # Heroku (optional)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -35,8 +35,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support Links
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+O9KQQMyfaxJiMjA1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Silent_world_chatting")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Global_alley")
 
 # Auto Leave
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -53,7 +53,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Session Strings
-STRING1 = getenv("STRING_SESSION", "BQFAF48ALuDDReGs2a_fTLJhTtJndJUdL7Po2GwHaGQ1Pu-_CY_5IimZuLqyaEthve0zsM2YauCzwYYxzK-VkE6Sic5YwXpZWUliG_cI8jhFYP2cKZJpjhTOuH7p-DuU1mTnMmggiR28ccrYd5azpqHQkYgGv39ozlE0L7RLMfNZwLLI4etpWwhdkbrevxJUlXSrBnTOtZoM0fLJUoKT0sZmye4UUSQ5sKpbOT1KlnzxGTzCgwXpMLV8K01EQVPFjifN7cgRVop5Ho9y-SXlIdziVySmyBvK4kKumNLj15W4wj5OG-pMBzPUpOGp3sk_SigjvYqRApwVwfV0lQH0_g8BAzHd5AAAAAHdS58tAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -71,7 +71,7 @@ confirmer = {}
 START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/1951b91d265c94bb90d2f-70bea2d338ca641e75.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/9cevdg.jpg")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/i493lf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/i0qmgf.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/iyr906.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
